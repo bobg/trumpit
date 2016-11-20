@@ -2,7 +2,7 @@ function trumpit() {
   var cognomens = [
     'Rapist',
     'Swindler',
-    'Thin-skin',
+    'Thin Skin',
     'Illiterate',
     'Numerous Bankruptcies',
     'Misogynist',
@@ -25,7 +25,7 @@ function trumpit() {
   var walk = function(el) {
     if (el.nodeType == 3) {
       var t = el.nodeValue;
-      el.nodeValue = t.replace(/(president(-elect)?(\s+donald(\s+j\.?)?)?|donald(\s+j\.?)?\s+)trump\b/gi,
+      el.nodeValue = t.replace(/(president(-elect)?(\s+donald(\s+j(\.|ohn)?)?)?|donald(\s+j(\.|ohn)?)?\s+)trump\b/gi,
                                function(match, p1) {
                                  var i = Math.random() * cognomens.length;
                                  var cognomen = cognomens[Math.floor(i)];
