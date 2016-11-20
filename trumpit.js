@@ -1,22 +1,24 @@
-var trumpit = function() {
+function trumpit() {
   var cognomens = [
     'Rapist',
     'Swindler',
     'Thin-skin',
     'Illiterate',
-    'Bankrupt',
+    'Numerous Bankruptcies',
     'Misogynist',
     'Racist',
     'Liar',
-    'Inferiority complex',
+    'Inferiority Complex',
     'Authoritarian',
     'Hatred',
     'Cruelty',
     'Narcissist',
     'Ignorant',
     'Corrupt',
-    'Penis',
-    'Vulgarian'
+    'Penis Talk',
+    'Vulgarian',
+    'Draft Dodger',
+    'Tax Evader'
   ];
 
   var body = document.getElementsByTagName("BODY")[0];
