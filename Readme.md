@@ -12,6 +12,8 @@ This extension makes that literally true.
 
 ---
 
-Github page for this extension: [https://github.com/bobg/trumpit](https://github.com/bobg/trumpit)
+Chrome Web Store page for this extension: [link](https://chrome.google.com/webstore/detail/trumpit/gbkaepbmcglcfgllkabadoliicmanmem)
+
+Github page for this extension: [link](https://github.com/bobg/trumpit)
 
 Trump caricature attribution: [DonkeyHotey](https://www.flickr.com/photos/donkeyhotey/25549297376)
