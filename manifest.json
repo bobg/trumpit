@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trumpit",
+  "description": "This extension makes web mentions of Donald Trump more descriptive",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Trumpit"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "js": ["trumpit.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
