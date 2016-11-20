@@ -8,4 +8,6 @@ he is.
 
 This extension makes that literally true.
 
-[](nytimes.png)
+![sample](nytimes.png)
+
+[Trump caricature attribution: [DonkeyHotey](https://www.flickr.com/photos/donkeyhotey/25549297376)]
