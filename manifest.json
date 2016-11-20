@@ -4,7 +4,7 @@
   "name": "Trumpit",
   "short_name": "Trumpit",
   "description": "This extension makes web mentions of Donald Trump more descriptive",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
     "default_title": "Trumpit"
