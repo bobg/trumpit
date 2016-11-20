@@ -12,9 +12,9 @@ This extension makes that literally true.
 
 ---
 
-Read about and install this free extension: [link](https://chrome.google.com/webstore/detail/trumpit/gbkaepbmcglcfgllkabadoliicmanmem)
+Install this free extension: [Chrome web store link](https://chrome.google.com/webstore/detail/trumpit/gbkaepbmcglcfgllkabadoliicmanmem)
 
-Read and contribute to the source code: [link](https://github.com/bobg/trumpit)
+Read and contribute to the source code: [Github link](https://github.com/bobg/trumpit)
 
 Read about [the Overton window](https://en.wikipedia.org/wiki/Overton_window)
 
