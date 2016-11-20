@@ -2,6 +2,7 @@
   "manifest_version": 2,
 
   "name": "Trumpit",
+  "short_name": "Trumpit",
   "description": "This extension makes web mentions of Donald Trump more descriptive",
   "version": "1.0",
 
