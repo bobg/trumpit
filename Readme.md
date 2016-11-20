@@ -10,4 +10,8 @@ This extension makes that literally true.
 
 ![sample](nytimes.png)
 
-[Trump caricature attribution: [DonkeyHotey](https://www.flickr.com/photos/donkeyhotey/25549297376)]
+---
+
+Github page for this extension: [https://github.com/bobg/trumpit](https://github.com/bobg/trumpit)
+
+Trump caricature attribution: [DonkeyHotey](https://www.flickr.com/photos/donkeyhotey/25549297376)
