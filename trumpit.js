@@ -1,6 +1,6 @@
 function trumpit() {
   var cognomens = [
-    'Rapist',
+    'Sexual Assault',
     'Swindler',
     'Thin Skin',
     'Illiterate',
@@ -18,7 +18,9 @@ function trumpit() {
     'Penis Talk',
     'Vulgarian',
     'Draft Dodger',
-    'Tax Evader'
+    'Tax Evader',
+    'Bully',
+    'Braggart'
   ];
 
   var body = document.getElementsByTagName("BODY")[0];
@@ -31,10 +33,11 @@ function trumpit() {
                                  var cognomen = cognomens[Math.floor(i)];
                                  return p1 + cognomen;
                                });
-    }
-    var c = el.childNodes;
-    for (var i = 0; i < c.length; i++) {
-      walk(c[i]);
+    } else {
+      var c = el.childNodes;
+      for (var i = 0; i < c.length; i++) {
+        walk(c[i]);
+      }
     }
   };
   walk(body);
