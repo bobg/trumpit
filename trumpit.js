@@ -23,16 +23,43 @@ function trumpit() {
     'Braggart'
   ];
 
+  var re = /(president(-elect)?(\s+donald(\s+j(\.|ohn)?)?)?|donald(\s+j(\.|ohn)?)?\s+)trump\b/i;
   var body = document.getElementsByTagName("BODY")[0];
   var walk = function(el) {
+    if (el.className == 'trumpit-cognomen') {
+      return;
+    }
     if (el.nodeType == 3) {
       var t = el.nodeValue;
-      el.nodeValue = t.replace(/(president(-elect)?(\s+donald(\s+j(\.|ohn)?)?)?|donald(\s+j(\.|ohn)?)?\s+)trump\b/gi,
-                               function(match, p1) {
-                                 var i = Math.random() * cognomens.length;
-                                 var cognomen = cognomens[Math.floor(i)];
-                                 return p1 + cognomen;
-                               });
+      var m = re.exec(t);
+      if (m) {
+        var i = Math.random() * cognomens.length;
+        var cognomen = cognomens[Math.floor(i)];
+
+        var startIndex = m.index;
+        var endIndex = startIndex + m[0].length;
+
+        // a node with text from before the match
+        var pre = document.createTextNode(t.substring(0, startIndex));
+
+        // a node with text from after the match
+        var post = document.createTextNode(t.substring(endIndex));
+
+        // a new span with the rewritten text
+        var newSpan = document.createElement('SPAN');
+        newSpan.className = 'trumpit-cognomen';
+        var rewritten = document.createTextNode(cognomen);
+        newSpan.appendChild(rewritten);
+
+        // replace el with pre+newSpan+post
+        var parent = el.parentNode;
+        parent.insertBefore(pre, el);
+        parent.insertBefore(newSpan, el);
+        parent.insertBefore(post, el);
+        parent.removeChild(el);
+
+        walk(post);
+      }
     } else {
       var c = el.childNodes;
       for (var i = 0; i < c.length; i++) {
