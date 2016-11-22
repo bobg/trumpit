@@ -44,7 +44,7 @@ function trumpit() {
     'suggested the U.S. should reduce its debts by partially defaulting on them.',
     'fraternizes with avowed white supremacists on Twitter.',
     'called Mexican immigrants rapists.',
-    'endored torture.',
+    'endorsed torture.',
     'refused to sell any of his more than 500 businesses if he’s elected, creating unprecedented conflicts of interest.',
     'disparaged Senator John McCain’s military service because he was captured by the North Vietnamese.',
     'defended FDR’s internment of Japanese Americans.',
