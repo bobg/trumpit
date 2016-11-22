@@ -1,0 +1,30 @@
+.trumpit-cognomen {
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: #555;
+}
+
+.trumpit-tooltip {
+    display: none;
+    width: 200px;
+    background-color: #fffbbf;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid black;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.trumpit-cognomen:hover .trumpit-tooltip {
+    display: inline-block;
+    opacity: 1;
+}
